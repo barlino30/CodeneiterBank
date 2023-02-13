@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }  
+  }
+
+.imagenL {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.izquierda{
+    width: 50%;
+    height: 45%;
+}
+
+.derecha{
+    width: 50%;
+    height: 45%;
+}
+
+.piese{
+    height: 10%;
+    margin-left: 30px;
+}
+
+#pantalla-dividida{
+    display: flex;
+}
+
+/*-----------------Donacion----------------------------------------------------------------------------------*/
+.form-Donacion {
+    width: 300px;
+    background: url("http://localhost/Proyecto/public/Imagenes/Donacion.png") no-repeat center fixed;
+    padding: 30px;
+    margin: auto;
+    margin-top: 80px; 
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;   
+}
+
+.container1 {
+    width: 390px;
+    margin: 30px auto;
+    margin-left: 200px;
+
+}
+.container-faq1 {
+    box-shadow: 0 0 15px -1px rgba(222, 217, 217, 0.409);
+    padding: 30px;
+}
+
+
+.container2 {
+    width: 450px;
+    margin: 30px auto;
+    margin-right: 200px;
+
+}
+.container-faq2 {
+    box-shadow: 0 0 15px -1px rgba(222, 217, 217, 0.409);
+    padding: 30px;
+}
+
